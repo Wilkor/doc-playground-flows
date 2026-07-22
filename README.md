@@ -1,6 +1,6 @@
 # Como criar e simular WhatsApp Flows no Blip com Flows Playground
 
-O **Flows Playground** acelera o desenvolvimento e prototipagem de fluxos interativos do WhatsApp no Blip, oferecendo um editor JSON integrado, simulador de smartphone em tempo real e exportação direta de blocos para o Builder.
+O **Flows Playground** acelera o desenvolvimento e prototipagem de fluxos interativos do WhatsApp no Blip, oferecendo um editor visual, editor JSON integrado, simulador de smartphone em tempo real e exportação direta de blocos para o Builder.
 
 **Palavras-chave:** WhatsApp Flows, Flows Playground, Simulador WhatsApp, Flow JSON, Blip Builder, Prototipagem de Fluxos
 
@@ -15,26 +15,51 @@ O **Flows Playground** é uma extensão que centraliza a criação, edição e v
 ### 3. Funcionalidades
 O **Flows Playground** oferece as seguintes funcionalidades:
 
-- **Login Inteligente e Automático**: Conexão automática via `iframe-message-proxy` que obtém os dados do bot, chaves de autorização Base64 e dados do atendente logado.
-- **Simulador Realista de Smartphone**: Prévia interativa em tempo real com mockup de celular realista (com notch, indicadores de bateria e rede) para testar a usabilidade do fluxo.
-- **Editor JSON Integrado**: Editor de código com suporte completo a esquemas de Flow JSON (incluindo versão 7.1) para criar fluxos do zero ou carregar rascunhos.
-- **Sincronização de Rascunhos**: Criação, carregamento por ID, edição e exclusão de rascunhos de fluxos salvos diretamente no banco de dados do backend.
-- **Configurador de Bloco do Blip Builder**: Modal para configurar parâmetros (primeira tela, CTA, corpo de texto e modo) e copiar instantaneamente o JSON do bloco pronto com scripts de entrada e saída automáticos para o Blip Builder.
-- **Interface com Blip Design System**: Visual moderno e padronizado com suporte nativo a temas Claro e Escuro.
+- **Editor Visual e Editor JSON**: Alterne entre a construção visual por componentes e o código JSON direto com validação de esquema.
+- **Simulador Realista de Smartphone**: Prévia interativa em tempo real com mockup de celular realista (com notch, relógio e indicadores) para testar a usabilidade do fluxo.
+- **Biblioteca de Templates Prontos**: Modelos pré-configurados de fluxos (estruturas condicionais, formulários de cadastro e listas).
+- **Gerenciamento de Fluxos no Blip / Meta**: Integração completa para listar, criar, publicar e deletar fluxos na API da Meta.
+- **Configurador de Bloco do Blip Builder**: Modal para configurar parâmetros (primeira tela, CTA, corpo de texto e modo) e copiar instantaneamente o JSON do bloco pronto com scripts automáticos.
 
 A extensão **Flows Playground** é suportada nos seguintes canais: **WhatsApp / Blip Store / Blip Builder**.
 
 ### 4. Instalação e Configuração
 Após ativar a extensão através da Blip Store, ela deve ser instalada no bot desejado.
 
-#### Passo a passo de Instalação:
+#### Passo a passo de Instalação e Configuração:
 1. Ao lado de Home na tela principal, clique em **Blip Store**, depois no menu lateral, clique em **Extensões**;
 2. Procure por **Flows Playground** e clique em **Ativar**;
-3. O login é realizado automaticamente ao carregar a extensão no portal do Blip, sincronizando o e-mail do atendente e as credenciais do contrato atual;
-4. Utilize o editor JSON ou selecione um rascunho existente para começar a construir e testar seu fluxo.
+3. No painel **Integração Blip**, informe a **Chave de Autorização (API Key) Router** e clique em **Salvar Configurações**:
 
-### 5. Exemplos de Uso
-Um desenvolvedor de conversação precisa criar uma jornada de agendamento no WhatsApp com múltiplas telas e seleções de data/horário. Ele abre o **Flows Playground**, insere o código do Flow JSON, testa as interações em tempo real no simulador de celular e exporta o bloco configurado diretamente para o Builder do Blip em poucos minutos.
+![Integração Blip / Meta](flows_6.png)
+
+4. Após a autenticação, a listagem dos seus WhatsApp Flows cadastrados na Meta será carregada automaticamente no painel lateral:
+
+![Listagem de WhatsApp Flows](flows_7.png)
+
+### 5. Exemplos de Uso e Recursos
+
+#### 1. Construção Visual e Edição de Conteúdo:
+Edite o título de telas, adicione componentes de texto, listas de navegação e formulários dinâmicos visualizando o resultado instantaneamente no smartphone:
+
+![Editor Visual e Simulador Realista](flows_1.png)
+
+![Formulários e Campos](flows_4.png)
+
+#### 2. Edição de Código no Editor JSON:
+Para desenvolvedores que preferem controle total do código, utilize o Editor JSON integrado com suporte a rascunhos e atalhos:
+
+![Editor JSON Integrado](flows_3.png)
+
+#### 3. Carregamento de Templates Prontos:
+Acelere a criação utilizando modelos pré-definidos de fluxos condicionais e formulários de cadastro:
+
+![Templates de Flows Prontos](flows_5.png)
+
+#### 4. Exportação do Bloco para o Blip Builder:
+Clique em **Copiar Bloco** na listagem do fluxo desejado, defina a tela inicial e os parâmetros no modal e copie o código completo para colar diretamente no Builder:
+
+![Configurar e Copiar Bloco Blip Builder](flows_8.png)
 
 ### 6. Suporte
 Em caso de dúvidas ou necessidade de auxílio na configuração do Flows Playground, entre em contato conosco:
