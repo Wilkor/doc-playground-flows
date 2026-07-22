@@ -7,9 +7,8 @@ O **WhatsApp Flows Playground** acelera o desenvolvimento e prototipagem de flux
 ---
 
 ### 1. Vídeo demonstrativo
-Assista à demonstração prática da criação, simulação e exportação de WhatsApp Flows diretamente no seu ambiente Blip.
+Esta extensão não possui vídeos ainda.
 
-*(Confira a edição do Flow JSON e a simulação interativa no smartphone)*
 
 ### 2. Introdução
 O **WhatsApp Flows Playground** é uma extensão que centraliza a criação, edição e validação visual de formulários e telas interativas do WhatsApp Flows sem a necessidade de sair do portal do Blip ou realizar testes em dispositivos físicos a cada alteração.
