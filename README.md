@@ -24,16 +24,17 @@ O **Flows Playground** oferece as seguintes funcionalidades:
 A extensão **Flows Playground** é suportada nos seguintes canais: **WhatsApp / Blip Store / Blip Builder**.
 
 ### 4. Instalação e Configuração
-Após ativar a extensão através da Blip Store, ela deve ser instalada no bot desejado.
+Após ativar a extensão através da Blip Store, ela deve ser instalada no bot Router (onde o canal WhatsApp está conectado).
 
-#### Passo a passo de Instalação e Configuração:
-1. Ao lado de Home na tela principal, clique em **Blip Store**, depois no menu lateral, clique em **Extensões**;
-2. Procure por **Flows Playground** e clique em **Ativar**;
-3. No painel **Integração Blip**, informe a **Chave de Autorização (API Key) Router** e clique em **Salvar Configurações**:
+#### Passo a passo de Instalação:
+1. Na tela principal do Blip, acesse a **Blip Store** → menu lateral **Extensões**;
+2. Procure por **Flows Playground** e clique em **Ativar (Instalar no bot Router/Roteador onde o WhatsApp está ativado)**;
+3. **Autenticação Automática**: Ao acessar a extensão por dentro do portal do Blip, o login e a sincronização das credenciais são realizados de forma **100% automática**, sem a necessidade de digitar chaves de autorização (Key);
+   - *Nota: A digitação manual da Chave de Autorização (API Key) só será solicitada caso a aplicação seja acessada externamente (por fora do portal do Blip).*
 
-![Integração Blip / Meta](flows_6.png)
+![Autenticação e Configuração Externa](flows_6.png)
 
-4. Após a autenticação, a listagem dos seus WhatsApp Flows cadastrados na Meta será carregada automaticamente no painel lateral:
+4. Após o carregamento, a listagem dos seus WhatsApp Flows cadastrados na Meta será exibida automaticamente no painel lateral:
 
 ![Listagem de WhatsApp Flows](flows_7.png)
 
